@@ -16,7 +16,7 @@ public class User {
     @Column
     private Byte age;
 
-    public User() {
+    public User(long id, String name, String lastAme, byte age) {
     }
 
     public User(String name, String lastName, Byte age) {
